@@ -175,7 +175,73 @@
     <section class="content">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-12">
+            <div class="col-6">
+              <div class="card card-primary">
+                <div class="card-header">
+                  <h3 class="card-title">Notifications</h3>
+  
+                  <div class="card-tools">
+                    <div class="input-group input-group-sm" style="width: 150px;">
+                      <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+  
+                      <div class="input-group-append">
+                        <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body table-responsive p-0">
+                  <table class="table table-hover text-nowrap">
+                    <thead>
+                      <tr>
+                        <th>NIK</th>
+                        <th>Nama</th>
+                        <th>Tangal</th>
+                        <th>Detail</th>
+                        <th>Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>20170801398</td>
+                        <td>Denna Dwi C</td>
+                        <td>23 Feb 2020</td>
+                        <td>Migrasi Server AD</td>
+                        <td>
+                          <a href="#" style="color:Green">Awaitting Approval</a>
+                        </td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                      <tr>
+                        <td>20170801377</td>
+                        <td>Asadi Salim</td>
+                        <td>23 Feb 2020</td>
+                        <td>Migrasi Server AD</td>
+                        <td>
+                          <a href="#">Approve</a>
+                        </td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                      <tr>
+                        <td>20170801374</td>
+                        <td>Dicky Kusmawan</td>
+                        <td>26 Jan 2020</td>
+                        <td>Pemindahan Mesin Fax</td>
+                        <td>
+                          <a href="#">Approve</a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+            <div class="col-6">
               <div class="card card-primary">
                 <div class="card-header">
                   <h3 class="card-title">Approval Status</h3>
@@ -198,51 +264,19 @@
                         <th>NIK</th>
                         <th>Nama</th>
                         <th>Tangal</th>
-                        <th>Status</th>
                         <th>Detail</th>
-                        <th>Action</th>
+                        <th>Status</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td>20170801374</td>
                         <td>Dicky Kusmawan</td>
-                        <td>01-06-2020</td>
-                        <td><span class="tag tag-success">Pending</span></td>
-                        <td>Ganti Battrei Server</td>
+                        <td>23 Feb 2020</td>
+                        <td>Migrasi Server AD</td>
                         <td>
-                          <button type="button" class="btn btn-block btn-primary btn-sm">Accept</button>
+                          <a href="#" style="color:Green">Awaitting Approval</a>
                         </td>
-                        <td>
-                          <button type="button" class="btn btn-block btn-danger btn-sm">Reject</button>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>20170801374</td>
-                        <td>Dicky Kusmawan</td>
-                        <td>02-06-2020</td>
-                        <td><span class="tag tag-success">Pending</span></td>
-                        <td>Ganti Kabel Listrik Server</td>
-                        <td>
-                          <button type="button" class="btn btn-block btn-primary btn-sm">Accept</button>
-                        </td>
-                        <td>
-                          <button type="button" class="btn btn-block btn-danger btn-sm">Reject</button>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>20170801374</td>
-                        <td>Dicky Kusmawan</td>
-                        <td>03-06-2020</td>
-                        <td><span class="tag tag-success">Pending</span></td>
-                        <td>Ganti Kabel Lan Server</td>
-                        <td>
-                          <button type="button" class="btn btn-block btn-primary btn-sm">Accept</button>
-                        </td>
-                        <td>
-                          <button type="button" class="btn btn-block btn-danger btn-sm">Reject</button>
-                        </td>
-                      </tr>
                     </tbody>
                   </table>
                 </div>
