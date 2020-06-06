@@ -183,7 +183,7 @@
                 </div>
                 <!-- /.card-header -->
                 <!-- form start -->
-                <form action="proses.php" method="POST" name="form-input-data" role="form">
+                <form action="proses.php" method="POST" name="proses" role="form">
                   <div class="card-body">
 
                     <!-- <div class="form-group">
