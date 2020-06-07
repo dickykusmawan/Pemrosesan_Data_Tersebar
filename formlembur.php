@@ -72,7 +72,7 @@
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
-            <a href="index.html" class="nav-link">
+            <a href="index.php" class="nav-link">
               <i class="nav-icon fas fi-home"></i>
               <p>
                 Dashboard
@@ -82,7 +82,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="myaccount.html" class="nav-link">
+            <a href="myaccount.php" class="nav-link">
               <i class="nav-icon fas fi-person"></i>
               <p>
                 My Info
@@ -92,7 +92,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="FormLembur.html" class="nav-link">
+            <a href="FormLembur.php" class="nav-link">
               <i class="nav-icon fas fi-spreadsheet"></i>
               <p>
                 Form Lembur
@@ -102,7 +102,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="approval.html" class="nav-link">
+            <a href="approval.php" class="nav-link">
               <i class="nav-icon fas fi-task"></i>
               <p>
                 Approve & Reject
@@ -112,7 +112,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="changepass.html" class="nav-link">
+            <a href="changepass.php" class="nav-link">
               <i class="nav-icon fas fi-key"></i>
               <p>
                 Change Password
