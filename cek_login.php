@@ -43,7 +43,7 @@ if($cek > 0){
 		$_SESSION['username'] = $username;
 		$_SESSION['level'] = "kabag";
 		// alihkan ke halaman dashboard kabag
-        header("location:dashboard_kabag.html");
+        header("location:dashboard.php");
         
         // cek jika user login sebagai manager
 	}else if($data['level']=="manager"){
