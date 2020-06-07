@@ -71,26 +71,6 @@
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-          <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
-
-          <!-- <li class="nav-item has-treeview menu-open">
-            <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                Dashboard
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="./index.html" class="nav-link active">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v1</p>
-                </a>
-            </ul>
-          </li> -->
-
           <li class="nav-item">
             <a href="index.html" class="nav-link">
               <i class="nav-icon fas fi-home"></i>
@@ -183,66 +163,53 @@
                 </div>
                 <!-- /.card-header -->
                 <!-- form start -->
-                <form action="proses.php" method="POST" name="proses" role="form">
+                <form action="proses.php" method="post" name="proses" role="form">
                   <div class="card-body">
-
-                    <!-- <div class="form-group">
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" name="radio1">
-                          <label class="form-check-label">Bapak</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="radio1">
-                            <label class="form-check-label">Ibu</label>
-                          </div>
-                      </div> -->
                     <div class="form-group">
                       <label for="exampleInputEmail1">NIK</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukan NIK">
+                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukan NIK" name="nik">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputEmail1">Nama Karyawan</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukan Nama Lengkap">
+                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukan Nama Lengkap" name="nama_karyawan">
                     </div>
                     <div class="form-group">
                         <label>Jenis Kelamin</label>
-                        <select class="form-control">
+                        <select class="form-control" name="jenis_kelamin">
                           <option>Laki Laki</option>
                           <option>Perempuan</option>
                         </select>
                       </div>
                     <div class="form-group">
                       <label for="exampleInputEmail1">Departement</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukan Nama Departement">
+                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukan Nama Departement" name="departement">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Bagian</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukan Nama Bagian">
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukan Nama Bagian" name="bagian">
                       </div>
                     <div class="form-group">
                       <label for="exampleInputEmail1">Jabatan</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukan Nama Jabatan">
+                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukan Nama Jabatan" name="jabatan">
                     </div>
                       <!-- Date and time range -->
                       <div class="form-group">
                         <label>Date and time range:</label>
-      
                         <div class="input-group">
                           <div class="input-group-prepend">
                             <span class="input-group-text"><i class="far fa-clock"></i></span>
                           </div>
-                          <input type="text" class="form-control float-right" id="reservationtime">
+                          <input type="text" class="form-control float-right" id="reservationtime" name="datetime">
                         </div>
                         <!-- /.input group -->
                       </div>
                       <!-- /.form group -->
                       <div class="form-group">
                         <label>Deskripsi</label>
-                        <textarea class="form-control" rows="3" placeholder="Masukan Deskripsi" style="margin-top: 0px; margin-bottom: 0px; height: 119px;"></textarea>
+                        <textarea class="form-control" rows="3" placeholder="Masukan Deskripsi" style="margin-top: 0px; margin-bottom: 0px; height: 119px;" name="deskripsi"></textarea>
                       </div>
                   </div>
                   <!-- /.card-body -->
-  
                   <div class="card-footer">
                     <button type="submit" class="btn btn-primary">Submit</button>
                   </div>
